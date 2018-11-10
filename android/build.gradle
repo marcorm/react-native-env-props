@@ -25,16 +25,16 @@ android {
     lintOptions {
         abortOnError false
     }
-    flavorDimensions "loginUrl"
+    flavorDimensions "LOGIN_ENV"
     productFlavors {
         dev {
             // Assigns this product flavor to the "version" flavor dimension.
             // This property is optional if you are using only one dimension.
-            dimension "loginUrl"
+            dimension "LOGIN_ENV"
             buildConfigField "String", "LOGIN_ENV", "\"DEV\""
         }
         prod {
-            dimension "loginUrl"
+            dimension "LOGIN_ENV"
             buildConfigField "String", "LOGIN_ENV", "\"PROD\""
         }
     }
