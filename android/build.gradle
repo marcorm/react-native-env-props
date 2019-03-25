@@ -33,6 +33,10 @@ android {
             dimension "LOGIN_ENV"
             buildConfigField "String", "LOGIN_ENV", "\"DEV\""
         }
+        col {
+            dimension "LOGIN_ENV"
+            buildConfigField "String", "LOGIN_ENV", "\"COL\""
+        }
         prod {
             dimension "LOGIN_ENV"
             buildConfigField "String", "LOGIN_ENV", "\"PROD\""
