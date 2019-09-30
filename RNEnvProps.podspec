@@ -17,5 +17,3 @@ Pod::Spec.new do |s|
   s.dependency "React"
 
 end
-
-require 'json'
